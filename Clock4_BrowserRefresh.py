@@ -17,7 +17,7 @@ st.header("UTC")
 
 st.write(utc_now.strftime("%Y-%m-%d %H:%M:%S"))
 
-weekday_en = ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"]
+weekday_en = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"]
 
 today_utc = utc_now.weekday()
 
